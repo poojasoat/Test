@@ -1,0 +1,542 @@
+.imgs
+{
+	width:20px;
+	height: 20px;
+}
+h2
+{
+	font-size: 12px !important;
+}
+.navigationmenu
+{
+	background-color: #363d4d;
+}
+.navigationmenu{
+
+margin-top: 48%;
+  }
+.navigationmenu li a
+{
+color: white  !important;
+}
+.navigationmenu li a:active
+{
+color: black!important;
+}
+.navigationmenu li 
+{
+margin-bottom: 4%;}
+
+.logo
+{
+	width:50px;
+}
+.progress{
+  position: relative;
+  margin: 4px;
+  float:left;
+  text-align: center;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 6px 10px;
+  margin: 5px 0px 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+.jk-icon
+{
+	border: 1px solid white;
+    border-radius: 50%;
+    padding: 6px 8px;
+}
+.serial
+{
+	background-color: #dda67f !important;
+	color: white;
+}
+.number-button1 {
+    color: black !important;
+    padding: 10px 0px 50px 0px;
+    font-size: 23px;
+    border-radius: 50%;
+    padding: 0px 7px;
+    background-color: white;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.4);
+    border: none !important;
+    font-weight: bold;
+}
+/*header1 css*/
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress-bar {
+  background-color: white !important;
+  margin-left: 15% !important;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+.header-nav
+{background-color: #363d4d;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1 !important;
+
+}
+.card-body {
+    padding: 0.25rem !important;
+
+}
+.dashoboard-area
+{
+margin-top: 7rem!important;
+}
+  
+
+.progress-bar{
+  position: relative;
+  margin: 4px;
+  float:left;
+  text-align: center;
+}
+.barOverflow{ 
+  position: relative;
+  overflow: hidden; 
+  width: 150px; height: 70px; 
+  margin-bottom: -14px;
+}
+.bar{
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid #f6f8ff;
+    border-bottom-color: #f3b789;
+    border-right-color: white;
+}
+.display-progress
+{
+    color: black;
+}
+.poor
+{
+      position: absolute;
+    top: 61%;
+    left:15%;
+}
+.good
+{
+      position: absolute;
+    top: 61%;
+        left: 67%;
+
+}
+.pieContainer {
+      height: 150px;
+      position: relative;
+    }
+    
+    .pieBackground {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+    } 
+    
+    .pie {
+      transition: all 1s;
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      clip: rect(0px, 75px, 150px, 0px);
+    }
+    
+    .hold {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      clip: rect(0px, 150px, 150px, 75px);
+    }
+    
+    #pieSlice1 .pie {
+      background-color: #1b458b;
+      transform:rotate(30deg);
+    }
+    
+    #pieSlice2 {
+      transform: rotate(30deg);
+    }
+    
+    #pieSlice2 .pie {
+      background-color: #cef4c1;
+      transform: rotate(145deg);
+    }
+    
+    #pieSlice3 {
+      transform: rotate(120deg);
+    }
+    
+    #pieSlice3 .pie {
+      background-color: #fadbb7;
+      transform: rotate(154deg);
+    }
+    
+    #pieSlice4 {
+      transform: rotate(210deg);
+    }
+    
+    #pieSlice4 .pie {
+      background-color: #08f;
+      transform: rotate(10deg);
+    }
+    
+    #pieSlice {
+      transform: rotate(220deg);
+    }
+    
+    
+    #pieSlice6 {
+      transform: rotate(267deg);
+    }
+    
+    #pieSlice6 .pie {
+      background-color: #f5b5b3;
+      transform: rotate(139deg);
+    }
+    
+    .choice li
+    {
+      list-style-type: none;
+
+    }
+
+      .choice li:before {
+  background-color: #14CCBB;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 10px;
+  width: 10px;
+}
+
+    
+    .innerCircle {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-color: white;
+      border-radius: 100%;
+      top: 15px;
+      left: 15px; 
+      color: white;
+    }
+    .innerCircle .content {
+      position: absolute;
+      display: block;
+      width: 120px;
+      top: 30px;
+      left: 0;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .percenteage1
+    {
+      position: absolute;
+    /* left: 100%; */
+    top: 85%;
+
+    }
+    .percenteage
+    {
+      position: absolute;
+    left: 100%;
+
+    }
+    @media screen and (max-width: 746px) {
+.navigationmenu{
+  margin-top:14%;
+    }
+  
+}
